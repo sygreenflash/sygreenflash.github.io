@@ -1,0 +1,133 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="minimum-scale=0.5,maximum-scale=0.5,width=640" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection"content="telephone=no, email=no" />
+<title>拾火基金--公司介绍</title>
+<link type="text/css" href="../css/public.css" rel="stylesheet"/>
+<link type="text/css" href="../css/common.css" rel="stylesheet"/>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/selectBox.js"></script>
+<!--[if IE 6]>
+<script src="../js/DD_belatedPNG.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('div, ul, img, li, input ,span, a , h1');
+    </script>
+<![endif]-->
+<style>
+    .listGridRight{padding-bottom:20px;}
+    .layout{
+        padding-top: 20px;
+    }
+    .about-view .listGrid{
+        padding-bottom: 0px;
+    }
+    .listGridLeft{
+        height: auto;
+    }
+</style>
+</head>
+<body>
+  <!--nav-->
+  <div class="nav owid" id="nologin" name="nologin"  style="display:block" >
+      <div class="page navPage clearfix">         
+              <a href="#" target="_blank" class="nav_r">注册</a>
+              <a href="#" class="nav_r">|</a>
+              <a href="#" class="nav_r" onclick="">登录</a>
+      </div>
+ </div>
+    <!--nav-->
+  <!--引入头部-->
+ <link type="text/css" href="../css/TopBottom.css" rel="stylesheet"/>
+<script  type="text/javascript">
+$(function(){
+    $('.mySeft').mouseover(function(){
+        $(this).addClass('hover');
+        $('.myZi').slideDown(); 
+    }).mouseleave(function(){
+        $(this).removeClass('hover');
+        $('.myZi').hide();      
+    })
+   var url = document.URL;//取得当前页的URL
+   var len="/gywm/";
+   var domain=window.location.host;
+  var contextPath = url.substr(url.indexOf(domain)+domain.length+1);
+   if(url.indexOf(len)!=-1){
+       document.getElementById("gsjs").className="cur";
+   }else if(contextPath=="capital/index.shtml" || contextPath==""){
+       document.getElementById("shouye").className="cur";
+   }
+   document.getElementById("gsjs").className="cur";
+
+});
+</script>
+<div class="logo owid">
+      <div class="page logoPage clearfix">
+          <a id="logo" href="../index.html"><img alt="图片logo" width="326px" height="51px" src="../images/logo.png"></a>
+            <ul class="logoNav">
+              <li class="mySeft">
+                  <a href="#">我的资产</a>
+                    <div class="myZi" style="display: none;">
+                        <ul class="myZiUl">
+                            <li><a href="#">资产总览</a></li>
+                            <li><a href="#">我的净值</a></li>
+                            <li><a href="#">交易记录</a></li>
+                            <li><a href="#">产品公告</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="curr"><a id="gsjs"  href="#">公司介绍</a></li>
+                <li class="curr"><a id="shouye"  href="../index.html">首页</a></li>
+            </ul>
+        </div>
+</div>
+    <!--产品登陆-->
+    <div class="list-view owid about-view productXq">
+      <div class="listView page">
+          <div class="layout"><img src="../images/banner.png" width="1000" alt="产品登录" /></div>
+            <div class="listGrid listGridAbout clearfix">
+              <div class="listGridLeft">
+                  <div class="aboutUs">
+                        <p class="listGridTtile font-fam">公司介绍</p>
+                        <div class="container-word">
+                           <p>拾火基金管理有限公司成立于2010年10月10日，是经中国证监会批准成立的首批全国性基金管理公司之一。公司总部设立在北京，在北京、上海、广州、深圳设有分公司。我们致力于为各类机构和个人投资者提供专业、全面的资产管理服务。</p> 
+                           <p>拾火基金作为首批全国社保基金管理人、首批企业年金投资管理人、首批基本养老保险基金证券投资管理人，积淀了业务“全牌照”的领先优势。至今，已发展形成涵盖公募基金、机构投资、养老金业务、海外投资、私募股权投资、财富管理等“全牌照”业务，联动一、二级市场投资的金融服务全产业链。</p>  
+                        </div>
+                    </div>
+                </div>
+                <div class="listGridRight">
+                  <div class="aboutUsRight">
+                        <p class="listGridTtile font-fam">联系我们</p>
+                        <div class="about">
+                            <h3 class="about-h3 font-fam">拾火基金管理有限公司</h3>
+                            <p class="about-p font-fam">邮箱：service@decaflame.com</p>
+                            <p class="about-p font-fam">电话：010-8888  8888</p>
+                            <p class="about-p font-fam">传真：010-8888  8888</p>
+                            <p class="about-p font-fam">地址：北京市顺义区安庆大街甲3号A座5层</p>
+                            <!-- <p class="about-p font-fam zhout-pA">甲3号A座5层</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--产品登陆-->
+    <!--footer-->
+   <!--footer-->
+<div class="footer owid">
+  <div class="page">
+    <p class="font-fam footerp">版权所有：拾火管理有限公司 京ICP证888888号 网站备案：京ICP备88888888号 京公网安备：111111111111</p>
+      <p class="font-fam">本网站所有资讯与说明文字仅供参考，如有与本公司相关公告及基金法律文件不符，以相关公告及基金法律文件为准。</p>
+      <p class="font-fam">市场有风险，投资需谨慎</p>
+   </div>
+</div>
+<SCRIPT SRC="../js/dcs_tag.js" TYPE="text/javascript"></SCRIPT>
+<!--footer-->
+    <!--footer-->
+</body>
+</html>
+<script type="text/javascript" src="../js/checkIsLogin.js"></script>

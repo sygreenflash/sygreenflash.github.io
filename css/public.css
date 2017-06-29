@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* 全局样式定义 */
+* { margin:0; padding:0; word-wrap:break-word; word-break:break-all; }/*英文自动换行*/
+body { background-color:#f7f7f7;color:#000000; font-size:12px;  font-family:"宋体";}/*background:url(../images/body.jpg) repeat*   font-family:"Microsoft Yahei","SimHei",Helvetica,Arial; */
+a{text-decoration:none;}
+a:hover { color:#cb9040;text-decoration: underline; }
+ul, li { list-style:none; }
+img { border:none; }
+body,td,th {font-size: 12px;}
+table{border-collapse:collapse;border-spacing:0;}
+ul, li, dl, dd, dt, p, span, font, form, img, h1, h2, h3, div, strong, label, em, table, th, td, tr, input ,select {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+/*html { overflow:-moz-scrollbars-vertical; }  在Firefox下始终显示滚动条*/
+.clear {
+    clear: both;
+    font-size: 0;
+    height: 0;
+    overflow: hidden;
+}
+input:-ms-clear{display:none;}/**IE 10 X�?*/
+*:focus{outline:none;}/**浏览器边框BUG*/
+
+input{font-family:"Microsoft Yahei","SimHei",Helvetica,Arial; cursor:pointer;}
+
+em,i{font-style:normal;}
+.login-after a.login-again:hover,.login-after a:hover,.productTitle a:hover,.gonggaoLiList a:hover,clearfix a:hover ,.font-fam a:hover ,.page.navPage.navPageAfter.clearfix a:hover{color:#cb9040;text-decoration: underline;}

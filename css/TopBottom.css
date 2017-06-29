@@ -1,0 +1,54 @@
+body,a,input,span,p,div{margin:0; padding:0;}
+.clearfix:after { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0; }
+.clearfix { *zoom:1; }
+.page{width:1002px; margin:0 auto; position:relative; font-family: "瀹嬩綋";}
+.owid{width:100%;  min-width:1002px;}
+/*澶撮儴娉ㄥ唽鍖哄煙*/
+.nav{height:25px; background-color:#e5e5e5;}
+.navPage .nav_l{float:left; line-height:24px; height:24px; display:block; color:#666666; margin-left:12px;}
+.navPage .nav_r{float:right; line-height:24px; height:24px; display:block; color:#666666; margin-right:12px;}
+.navPage .nav_r welcome_nama{margin-right:10px;}
+.indexBack{background-color:#f7f7f7;}
+.navPage a.nav_l:hover{color:#cb9040;}
+.navPage a.nav_r:hover{color:#cb9040;}
+/*logo*/
+.logo{height:82px; background-color:#fff; position:relative; +z-index:2;}
+#logo{width:320px; height:44px; display:block; float:left; margin-left:10px; margin-top:20px;}
+.logoNav li{width:174px; height:78px; float:right; text-align:center; margin-top:3px; position:relative;}
+.logoNav li a{color:#333333;font-family:"Microsoft Yahei","SimHei",Helvetica,Arial; font-size:18px; display:block;height:70px;line-height:70px;}
+.logoNav .curr{background:none; border:none;}
+.logoNav .curr a{display:block;width:100px;height:70px;line-height:70px;margin:0 auto;text-decoration: none;}
+.logoNav .curr a:hover{color:#96151d;text-decoration:none;}
+.logoNav .curr a.cur{color:#96151d;border-bottom:3px solid #900;text-decoration:none;}
+
+
+.logoNav li.mySeft{background:url(../images/logo1.png) no-repeat 14px 22px;}
+.logoNav li.mySeft A{padding-left:34PX;}
+.logoNav li.mySeft:hover,.logoNav li.mySeft.hover{background-color:#e8e8e8;}
+.logoNav{position:relative;}
+.logoNav .myZi{ background:url(../images/my.png) no-repeat; width:174px; height:158px; position:absolute; z-index:14; right:0px; top:78px; display:none;}
+.logoNav .myZiUl li{height:33px; text-align:left;}
+.logoNav .myZiUl li:hover{background-color:#b4b4b4;}
+.logoNav .myZiUl li:hover a{color:#b81c20;}
+.logoNav .myZiUl li a{color:#333333;font-family:"Microsoft Yahei","SimHei",Helvetica,Arial; font-size:14px; padding-left:26px; line-height:33px; height:33px; display:block; padding-top:0px;}
+.aboutUs{width:586px; margin: 0 auto;}
+
+
+/*搴曢儴*/
+.footer{height:148px; background-color:#666666; text-align:center;}
+.footer .footerp{padding-top:37px;}
+.footer p{color:#ffffff; font-size:12px; height:26px; line-height:26px;}
+.font-fam {font-family: "Microsoft Yahei","SimHei",Helvetica,Arial;}
+
+
+/*澶撮儴鐧诲綍鍚庡尯鍩?*/
+.navPageAfter .nav_r {color: #999999;}
+.navPage .nav_r.welcome_name{ padding-right:40px; color:#999999;}
+.gonggao{border-top:#edecec 1px solid; padding-top:20px; position:relative; z-index:1;}
+.productXq{background:url(../images/hr_pr.jpg) repeat-x #f7f7f7; padding-bottom:20px;}
+
+.gonggao_jy{ padding-top:0px;}
+
+/*娓呴櫎浜ゆ槗鍐呮牱寮忓啿绐?*/
+.gonggao_jy .productContent{ font-family:"Microsoft YaHei";}
+.g-login input,.g-bd-buy input{ cursor:auto;}
